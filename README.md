@@ -1,27 +1,29 @@
-# Bargraph
+# UI-bar-graph exercise
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## Instructions
 
-## Development server
+- Using any UI framework (or none) create a bar graph using the data.json file provided using javascript and css
+- Do not use any third party graph libraries, the graph should be your own
+- After you complete the exercise, provide notes below on how your code can be ran whether it be by simply opening a index.html file or through an npm command
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Candidate Notes:
+- Used Angular Framework for Design of Bar Chart
+- Used only Vanilla Javascript in component
+- GraphComponent responsible for bar chart creation
+- GraphService responsible for fetching data for bar chart
+- CommonService  responsible for performing common task related to bar chart rendering
+- Also have one component Palindrome Search which will redirect to GitHUb link for the problem solution
 
-## Code scaffolding
+## Added some additional featrures
+- Legend using basic CSS
+- We can enhance bar chart with more features example:
+ - We can map key name with every data value
+ - We can have some meaningfull X and Y axis insights
+ - More data can be integrated anytime with this design
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Runing the application
+- Install node on machine
+- Go to the project bargraph
+- Run: npm install
+- Run: ng serve --port 3333
+- launch application : http://localhost:3333

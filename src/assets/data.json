@@ -1,0 +1,6 @@
+{
+    "title": "Bar Chart",
+    "data": [49, 8, 23, 57, 94, 78, 94, 54, 75, 63],
+    "xHeader": "xAxis",
+    "yHeader": "yAxis"
+  }
