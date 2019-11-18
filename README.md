@@ -25,5 +25,6 @@
 - Install node on machine
 - Go to the project bargraph
 - Run: npm install
+- Run: npm install -g @angular/cli
 - Run: ng serve --port 3333
 - launch application : http://localhost:3333
